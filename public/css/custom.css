@@ -1143,7 +1143,7 @@ header.main-header .header-sticky.active{
 .about-us-list ul li::before{
 	content: '\f058';
     position: absolute;
-    font-family: 'FontAwesome';
+    font-family: "Font Awesome 5 Free";
     font-size: 18px;
     font-weight: 900;
     line-height: normal;
@@ -1590,7 +1590,7 @@ header.main-header .header-sticky.active{
 .consultancy-tab-content ul li::before{
 	content: '\f058';
     position: absolute;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
     font-size: 18px;
     font-weight: 900;
     line-height: normal;
