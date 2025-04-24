@@ -2011,7 +2011,7 @@ header.main-header .header-sticky.active{
     width: 102px;
     right: 50%;
     bottom: 0;
-    background: url(../images/our-approach-img-bg.svg) no-repeat;
+    background: url("../images/our-approach-img-bg.svg") no-repeat;
     background-position: center bottom;
     background-size: cover;
     transform: translate(140%, -50%);
