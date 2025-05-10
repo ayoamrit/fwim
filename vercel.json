@@ -9,9 +9,7 @@
       { "src": "/images/(.*)", "dest": "/public/images/$1" },
       { "src": "/video/(.*)", "dest": "/public/video/$1" },
 
-      { "src": "/about", "dest": "public/about.html" },
-      { "src": "/contact", "dest": "public/contact.html" },
-      { "src": "/services", "dest": "public/services.html" },
+      { "src": "/(about\\.html|contact\\.html|services\\.html)", "dest": "/public/$1" },
 
       { "src": "/", "dest": "public/index.html" }
     ]
