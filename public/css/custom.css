@@ -3009,7 +3009,7 @@ header.main-header .header-sticky.active{
 .approach-tab-content-list ul li::before{
 	content: '\f058';
     position: absolute;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
     font-size: 18px;
     font-weight: 900;
     line-height: normal;
