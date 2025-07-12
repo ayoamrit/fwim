@@ -1,5 +1,6 @@
 {
   "dependencies": {
-    "node": "^23.11.0"
+    "node": "^23.11.0",
+    "nodemailer": "^7.0.5"
   }
 }

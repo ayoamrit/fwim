@@ -245,7 +245,7 @@
 		}
 	});
 
-	/* Contact form validation */
+	/* Contact form validation 
 	var $contactform = $("#contactForm");
 	$contactform.validator({focus: false}).on("submit", function (event) {
 		if (!event.isDefaultPrevented()) {
@@ -255,7 +255,7 @@
 	});
 
 	function submitForm(){
-		/* Ajax call to submit form */
+		/* Ajax call to submit form 
 		$.ajax({
 			type: "POST",
 			url: "form-process.php",
@@ -283,7 +283,7 @@
 		}
 		$("#msgSubmit").removeClass().addClass(msgClasses).text(msg);
 	}
-	/* Contact form validation end */
+	Contact form validation end */
 
 	/* Animated Wow Js */	
 	new WOW().init();

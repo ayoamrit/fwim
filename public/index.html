@@ -203,7 +203,7 @@
                         <!-- About Image 1 Start -->
                         <div class="about-img-1">
                             <figure class="image-anime reveal">
-                                <img src="images/about-img-1.jpg" alt="">
+                                <img src="images/about-img-1.jpg" alt="A female immigration lawyer giving advice to clients">
                             </figure>
                         </div>
                         <!-- About Image 1 End -->
@@ -211,7 +211,7 @@
                         <!-- About Image 2 Start -->
                         <div class="about-img-2">
                             <figure class="image-anime reveal">
-                                <img src="images/about-img-2.jpg" alt="">
+                                <img src="images/about-img-2.jpg" alt="A happy family sitting in park holding small Canadian flags in their flags">
                             </figure>
                         </div>
                         <!-- About Image 2 End -->
@@ -608,11 +608,6 @@
                 <div class="col-lg-12">
                     <!-- Intro Video Box Start -->
                     <div class="intro-video-box">
-                        <!-- Video Play Button Start -->
-                        <div class="video-play-button">
-                            <a href="https://www.youtube.com/watch?v=Y-x0efG1seA" class="popup-video" data-cursor-text="Play">Play</a>
-                        </div>
-                        <!-- Video Play Button End -->
 
                         <!-- Intro Video Counter Start -->
                         <div class="intro-video-counter">
@@ -1047,9 +1042,27 @@
                                     <div class="help-block with-errors"></div>
                                 </div>
 
-                                <div class="form-group col-md-12 mb-5">
-                                    <textarea name="message" class="form-control" id="message" rows="4" placeholder="Write Message.."></textarea>
+                                <div class="form-group col-md-12 mb-4">
+                                    <textarea name="message" class="form-control" id="message" rows="4" required placeholder="Write Message.."></textarea>
                                     <div class="help-block with-errors"></div>
+                                </div>
+
+                                <!-- Add this inside the form, just above the submit button -->
+                                <div class="form-group col-md-12 mb-5">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" id="agreeTerms">
+                                        <label class="form-check-label" for="agreeTerms">
+                                            I agree to receive transactional messages (e.g. reminders, confirmations). Msg & data rates may apply. 
+                                            Reply HELP for help, STOP to opt-out. Read our <a href="https://www.termsfeed.com/live/1c8ac1c0-46d7-4328-8fc6-6c165058c9ea" target="_blank">Privacy Policy</a>.
+                                        </label>
+                                    </div>
+                                    <div class="form-check mt-2">
+                                        <input class="form-check-input" type="checkbox" id="subscribeNewsletter">
+                                        <label class="form-check-label" for="subscribeNewsletter">
+                                            I agree to receive marketing messages (offers, updates). Msg & data rates may apply. 
+                                            Reply HELP for help, STOP to opt-out.
+                                        </label>
+                                    </div>
                                 </div>
 
                                 <div class="col-md-12">
@@ -1212,7 +1225,6 @@
                         <!-- Footer Social Link Start -->
                         <div class="footer-social-links">
                             <ul>
-                                <li><a href="#"><i class="fab fa-dribbble"></i></a></li>
                                 <li><a href="#"><i class="fab fa-facebook-f"></i></a></li>
                                 <li><a href="#"><i class="fab fa-instagram"></i></a></li>
                             </ul>
@@ -1331,5 +1343,7 @@
     <script src="js/wow.min.js"></script>
     <!-- Main Custom js file -->
     <script src="js/function.js"></script>
+    <!--Contact Form js File-->
+    <script src="js/contactForm.js"></script>
 </body>
 </html>
