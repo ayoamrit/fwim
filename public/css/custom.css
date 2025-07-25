@@ -3304,7 +3304,7 @@ header.main-header .header-sticky.active{
 .faq-accordion .accordion-item .accordion-button::after, 
 .faq-accordion .accordion-item .accordion-button.collapsed::after{
     content: '\2b';
-    font-family: 'Font Awesome 6 Free';
+    font-family: 'Font Awesome 5 Free';
     font-weight: 900;
     position: absolute;
 	right: 0;
@@ -3563,7 +3563,7 @@ header.main-header .header-sticky.active{
 .service-entry ul li::before{
     content: '\f058';
     position: absolute;
-    font-family: 'FontAwesome';
+    font-family: 'Font Awesome 5 Free';
     font-size: 18px;
     font-weight: 900;
     line-height: normal;

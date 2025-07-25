@@ -10,7 +10,7 @@
       { "src": "/images/(.*)", "dest": "/public/images/$1" },
       { "src": "/video/(.*)", "dest": "/public/video/$1" },
 
-      { "src": "/(index\\.html|about\\.html|contact\\.html|services\\.html)", "dest": "/public/$1" },
+      { "src": "/(index\\.html|about\\.html|contact\\.html|services\\.html|study-visa-service\\.html|family-visa-service\\.html)", "dest": "/public/$1" },
 
       { "src": "/", "dest": "public/index.html" }
     ]
