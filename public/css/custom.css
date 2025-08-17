@@ -2527,11 +2527,6 @@ header.main-header .header-sticky.active{
 	transition: all 0.3s ease-in-out;
 }
 
-.footer-social-links ul li a:hover{
-	color: var(--accent-color);
-	background: var(--white-color);
-}
-
 .footer-social-links ul li a i{
 	font-size: 18px;
 	color: inherit;
