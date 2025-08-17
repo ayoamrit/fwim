@@ -120,7 +120,15 @@
                     <!-- Post Featured Image Start -->
                     <div class="post-image">
                         <figure>
-                            <img src="images/post-4-min.jpg" loading="lazy" alt="">
+                            <img 
+                                src="images/post-4-480.jpg" 
+                                srcset="
+                                    images/post-4-480.jpg 480w,
+                                    images/post-4-960.jpg 960w,
+                                    images/post-4-1096.jpg 1200w
+                                "
+                                sizes="(max-width: 600px) 480px, (max-width: 1200px) 960px, 1200px"
+                                alt="Immigration services article image" loading="lazy">
                         </figure>
                     </div>
                     <!-- Post Featured Image Start -->
