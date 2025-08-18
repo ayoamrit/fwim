@@ -10,7 +10,7 @@
       { "src": "/images/(.*)", "dest": "/public/images/$1" },
       { "src": "/video/(.*)", "dest": "/public/video/$1" },
 
-      { "src": "/(index\\.html|about\\.html|contact\\.html|services\\.html|study-visa-service\\.html|family-visa-service\\.html|blog\\.html|blog-one\\.html|spousal-sponsorship\\.html|blog-two\\.html|blog-three\\.html|contact-us\\.html|spousal-sponsorship-copy\\.html)", "dest": "/public/$1" },
+      { "src": "/(index\\.html|about\\.html|contact\\.html|services\\.html|study-visa-service\\.html|family-visa-service\\.html|blog\\.html|blog-one\\.html|spousal-sponsorship\\.html|blog-two\\.html|blog-three\\.html|contact-us\\.html)", "dest": "/public/$1" },
       { "src": "/", "dest": "public/index.html" }
     ]
 }
