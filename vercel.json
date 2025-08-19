@@ -10,8 +10,8 @@
       { "src": "/images/(.*)", "dest": "/public/images/$1" },
       { "src": "/video/(.*)", "dest": "/public/video/$1" },
 
-      { "src": "/(index\\.html|about\\.html|contact\\.html|services\\.html|study-visa-service\\.html|family-visa-service\\.html|blog\\.html|spousal-sponsorship\\.html|blog-two\\.html|blog-three\\.html|contact-us\\.html|blog-one\\.html)", "dest": "/public/$1" },
-      { "src": "/(blog-one\\.html)", "dest": "/public/blog/blog-one.html" },
+      { "src": "/(index\\.html|about\\.html|contact\\.html|services\\.html|study-visa-service\\.html|family-visa-service\\.html|blog\\.html|spousal-sponsorship\\.html|blog-two\\.html|blog-three\\.html|contact-us\\.html)", "dest": "/public/$1" },
+      { "src": "/blog/(.*)", "dest": "/public/blog/$1" },
       { "src": "/", "dest": "public/index.html" }
     ]
 }
