@@ -26,7 +26,7 @@
 18. Services Page css
 19. Services Single css
 20. Blog Archive css
-21. Blog Single css
+21. Blog Single css  - Spousal Custom Font Size [Added Below Here]
 22. Coaching page css
 23. Coaching Single css
 24. Country page css
@@ -3655,6 +3655,14 @@ header.main-header .header-sticky.active{
 /************************************/
 /***      21. Blog Single css     ***/
 /************************************/
+
+/** Spousal Custom Font Size **/
+/************************************/
+.small-font-size{
+	font-size: 16px;
+}
+/************************************/
+
 
 .page-single-post{
 	padding: 100px 0;

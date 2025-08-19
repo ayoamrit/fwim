@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://www.fleetwoodimmigration.com/sitemap.xml
+Sitemap: https://www.fleetwoodimmigration.com/sitemap-pages.xml
+Sitemap: https://www.fleetwoodimmigration.com/sitemap-blog.xml
