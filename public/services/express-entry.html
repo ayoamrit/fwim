@@ -24,15 +24,26 @@
     <!--Google Tag (gtag.js)-->
     <!----------------------------------------------------------------->
     
-    <script async src="https://www.googletagmanager.com/gtag/js?id=G-X5ZNRKR5Y7"></script>
+    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-X5ZNRKR5Y7"></script>
     <script>
-        
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
-        gtag('config', 'G-X5ZNRKR5Y7');
-        
+        // Load GA only when user interacts
+        function loadGA() {
+            var s = document.createElement('script');
+            s.src = "https://www.googletagmanager.com/gtag/js?id=G-X5ZNRKR5Y7";
+            s.async = true;
+            document.head.appendChild(s);
+
+            gtag('config', 'G-X5ZNRKR5Y7');
+            window.removeEventListener('scroll', loadGA);
+            window.removeEventListener('click', loadGA);
+        }
+
+        window.addEventListener('scroll', loadGA, { once: true });
+        window.addEventListener('click', loadGA, { once: true });
     </script>
     <!----------------------------------------------------------------->
     <!----------------------------------------------------------------->
