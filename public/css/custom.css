@@ -3277,44 +3277,30 @@ header.main-header .header-sticky.active{
     padding-bottom: 20px;
 }
 
-.faq-accordion .accordion-item:last-child{
-    margin-bottom: 0;
-	padding-bottom: 0;
-    border-bottom: none;
+.faq-accordion .accordion-item:last-child {
+  margin-bottom: 0;
+  padding-bottom: 0;
+  border-bottom: none;
 }
 
-.faq-accordion .accordion-header .accordion-button{
-    font-size: 24px;
-	font-weight: 600;
-    line-height: 1.2em;
-    color: var(--primary-color);
-    padding-right: 30px;
-    transition: all 0.3s ease-in-out;
+.faq-accordion .accordion-header .accordion-button {
+  position: relative; /* needed for the ::after icon */
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 1.2em;
+  color: var(--primary-color);
+  padding-right: 30px;
+  transition: all 0.3s ease-in-out;
+  cursor: pointer;
+  background: none;
+  border: none;
+  text-align: left;
+  width: 100%;
 }
 
-.faq-accordion .accordion-button:not(.collapsed){
-    margin-bottom: 10px;
-}
-
-.faq-accordion .accordion-item .accordion-button::after, 
-.faq-accordion .accordion-item .accordion-button.collapsed::after{
-    content: '\2b';
-    font-family: 'Font Awesome 5 Free';
-    font-weight: 900;
-    position: absolute;
-	right: 0;
-    top: 50%;
-	font-size: 20px;
-	color: var(--primary-color);
-	transform: translateY(-50%);
-    transition: all 0.3s ease-in-out;
-}
-
-.faq-accordion .accordion-button:not(.collapsed)::after{
-    content: '\f068';
-}
 
 .accordion-item .accordion-body p{
+	margin-top: 15px;
     margin-bottom: 15px;
 }
 
@@ -3556,17 +3542,16 @@ header.main-header .header-sticky.active{
 }
 
 .service-entry ul li::before{
-    content: '\f058';
-    position: absolute;
-    font-family: 'Font Awesome 5 Free';
-    font-size: 18px;
-    font-weight: 900;
-    line-height: normal;
-    color: var(--accent-color);
-    display: inline-block;
-    top: 50%;
-    left: 0;
+	content: '';
+	position: absolute;
+	top: 50%;
+	left: 0;
+	width: 20px;
+	height: 20px;
 	transform: translateY(-50%);
+	
+	background: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 640 640'><path fill='%23be0b32' d='M320 576C461.4 576 576 461.4 576 320C576 178.6 461.4 64 320 64C178.6 64 64 178.6 64 320C64 461.4 178.6 576 320 576zM404.4 276.7L324.4 404.7C320.2 411.4 313 415.6 305.1 416C297.2 416.4 289.6 412.8 284.9 406.4L236.9 342.4C228.9 331.8 231.1 316.8 241.7 308.8C252.3 300.8 267.3 303 275.3 313.6L302.3 349.6L363.7 251.3C370.7 240.1 385.5 236.6 396.8 243.7C408.1 250.8 411.5 265.5 404.4 276.8z'/></svg>") no-repeat center;
+	background-size: contain;
 }
 
 .service-entry-list-image{
