@@ -44,6 +44,15 @@
 /*** 	 01. Global Variables	  ***/
 /************************************/	
 
+/* fonts.css (load this first) */
+@font-face {
+  font-family: "Afacad Flux";
+  font-style: normal;
+  font-weight: 400;
+  font-display: swap;
+  src: url("/public/fonts/afacad-flux-v3-latin-regular.woff2") format("woff2");
+}
+
 :root{
 	--primary-color			: #002768;
 	--secondary-color		: #EFF4FA99;
