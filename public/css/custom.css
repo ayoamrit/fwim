@@ -2297,7 +2297,7 @@ header.main-header .header-sticky.active{
 	position: absolute;
 	bottom: 0;
 	left: -55px;
-	background: url(../images/cta-bg-shape.svg) no-repeat;
+	background: no-repeat;
 	background-position: left bottom;
 	background-size: cover;
 	height: 250px;
@@ -2676,7 +2676,7 @@ header.main-header .header-sticky.active{
 /************************************/
 
 .page-header{
-	background: url('../images/page-header-bg.svg'), var(--accent-color);
+	background: var(--accent-color);
 	background-repeat: no-repeat;
 	background-position: center center;
 	background-size: cover;
