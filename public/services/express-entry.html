@@ -13,38 +13,20 @@
     <title>Fleetwood Immigration - Consultation and Services</title>
     <!-- Favicon Ico -->
     <link rel="icon" type="image/svg+xml" href="/images/favicon.svg">
-    <!-- Google Fonts Css-->
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Afacad+Flux:wght@100..1000&display=swap" rel="stylesheet">
     <!-- Bootstrap Css -->
     <link href="/css/bootstrap.min.css" rel="stylesheet" media="screen">
     <link href="/css/custom.css" rel="stylesheet" media="screen">
 
     <!--Google Tag (gtag.js)-->
     <!----------------------------------------------------------------->
-    
-    <script defer src="https://www.googletagmanager.com/gtag/js?id=G-X5ZNRKR5Y7"></script>
-    <script>
-        window.dataLayer = window.dataLayer || [];
-        function gtag(){dataLayer.push(arguments);}
-        gtag('js', new Date());
-
-        // Load GA only when user interacts
-        function loadGA() {
-            var s = document.createElement('script');
-            s.src = "https://www.googletagmanager.com/gtag/js?id=G-X5ZNRKR5Y7";
-            s.async = true;
-            document.head.appendChild(s);
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-X5ZNRKR5Y7"></script>
+        <script>
+            window.dataLayer = window.dataLayer || [];
+            function gtag(){dataLayer.push(arguments);}
+            gtag('js', new Date());
 
             gtag('config', 'G-X5ZNRKR5Y7');
-            window.removeEventListener('scroll', loadGA);
-            window.removeEventListener('click', loadGA);
-        }
-
-        window.addEventListener('scroll', loadGA, { once: true });
-        window.addEventListener('click', loadGA, { once: true });
-    </script>
+        </script>
     <!----------------------------------------------------------------->
     <!----------------------------------------------------------------->
 </head>
@@ -146,11 +128,11 @@
                         <div class="service-catagery-list">
                             <h3>services category</h3>
                             <ul>
-                                <li><a href="/study-visa-service.html">student visa</a></li>
-                                <li><a href="#">tourists visa</a></li>
-                                <li><a href="#">Express Entry</a></li>
-                                <li><a href="/services/work-permit-lmia.html">Work Permit | LMIA</a></li>
-                                <li><a href="/family-visa-service.html">family visa</a></li>
+                                <li><a href="student-visa.html">student visa</a></li>
+                                <li><a href="tourist-visa.html">tourists visa</a></li>
+                                <li><a href="express-entry.html">Express Entry</a></li>
+                                <li><a href="work-permit-lmia.html">Work Permit | LMIA</a></li>
+                                <li><a href="family-visa.html">family visa</a></li>
                             </ul>
                         </div>
                         <!-- Service Category List End -->
@@ -480,9 +462,9 @@
                         <h3>Immigration</h3>
                         <ul>
                             <li><a href="#">IELTS Resources</a></li>
-                            <li><a href="#">Family Visa</a></li>
-                            <li><a href="#">Tourist Visa</a></li>
-                            <li><a href="#">Student visa</a></li>
+                            <li><a href="family-visa.html">Family Visa</a></li>
+                            <li><a href="tourist-visa.html">Tourist Visa</a></li>
+                            <li><a href="student-visa.html">Student visa</a></li>
                         </ul>
                     </div>
                     <!-- Footer Links End -->
